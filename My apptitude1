@@ -1,0 +1,32 @@
+public class myapti2 {
+    public static void main(String[] args) {
+        
+    
+    int invest1=6500,invest2=8400,invest3=10000,m1=6,m2=5,m3=3;
+    double totinvest1,totinvest2,totinvest3;
+    double totprofit=7400,percent=5,value,getprofit,remprofit;
+    double b_ratio1,b_ratio2,ratio,ratio1,ratio2,ratio3,b_share;
+    totinvest1 = invest1*m1;
+    totinvest2 = invest2*m2;
+    totinvest3 = invest3*m3;
+        
+    //find ratio
+    ratio1=totinvest1/3000;
+    ratio2=totinvest2/3000;
+    ratio3=totinvest3/3000;
+        
+    ratio=ratio1+ratio2+ratio3;
+        
+    value=totprofit/100;
+    
+    getprofit=value*5;
+        
+    remprofit=totprofit-getprofit;
+       
+    //find B's share
+    b_ratio1=remprofit/ratio;
+        
+    b_share=b_ratio1*ratio2;
+        System.out.println("B's Share is " +b_share);
+   }  
+}
