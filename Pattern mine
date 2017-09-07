@@ -1,0 +1,28 @@
+package Pattern;
+
+/**
+ *
+ * @author RAJESH
+ */
+public class Pattern6 {
+    public static void main(String[] args) {
+        
+        int i,j,k;
+        i=0;
+        while(i<2){
+            j=0;
+            while(i>=(j*1)){
+                System.out.print("#");
+                j++;
+            }
+            k=0;
+            while(k>(k*1)){
+                System.out.print("* ");
+            k++;
+        }
+            System.out.println();
+            i++;
+        }
+    }
+    
+}
