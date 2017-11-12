@@ -1,0 +1,12 @@
+public class Eg1 {
+    public static void main(String[] args){
+        int x=5,y=4,z;
+        while(y!=0){
+            z=x&y;
+            x=x^y;
+            y=z<<1;
+        }
+        System.out.println(x);
+    }
+    
+}
